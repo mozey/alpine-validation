@@ -23,6 +23,8 @@ Supports all standard [HTML5 input types](https://developer.mozilla.org/en-US/do
 
 **TODO** Serve examples with deno
 
+`deno.json` is the deno config file is 
+
 Run the program
 ```bash
 deno run main.ts
@@ -48,7 +50,9 @@ deno test
 
 The package is hosted on [JSR](https://jsr.io/docs/introduction): *"a modern package registry for JavaScript and TypeScript. JSR works with many runtimes (Node.js, Deno, Bun, browsers, and more) and is backwards compatible with npm"*
 
-Publish to JSR
+`jsr.json` is the JSR config file. Using a separate file instead of just setting the properties in deno.json
+
+Publish module to JSR
 ```bash
 deno publish
 ```
